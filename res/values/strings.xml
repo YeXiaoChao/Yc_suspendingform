@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">悬浮窗体</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="strBtn">点我吧少年！</string>
+    <string name="strPic">LOGO图片</string>
+    <string name="strTextTop">北京移动</string>
+    <string name="strTextBottom">防窃听未开启</string>
+
+</resources>
