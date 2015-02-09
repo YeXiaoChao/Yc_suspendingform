@@ -61,8 +61,8 @@ public class MainActivity extends Activity {
 					Log.i("startP", "startX" + mTouchStartX + "====startY"
 							+ mTouchStartY);
 					long end = System.currentTimeMillis() - startTime;
-					// 双击的间隔在 200ms 到 500ms 之间
-					if (end > 200 && end < 500) {
+					// 双击的间隔在 300ms以下
+					if (end < 300) {
 						closeDesk();
 					}
 					startTime = System.currentTimeMillis();
